@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+  // Adding comments to test Git Funtionality
     
     class GameScene: SKScene {
         
