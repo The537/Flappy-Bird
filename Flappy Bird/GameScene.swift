@@ -21,7 +21,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 	var gameBackgroundMusic: SKAudioNode!
 	
 	var sound = SKAction.playSoundFileNamed("sfx_point.wav" , waitForCompletion: true)
-	
+
 	var sound2 = SKAction.playSoundFileNamed("sfx_die.wav" , waitForCompletion: true)
 	
 	enum ColliderType: UInt32 {
@@ -124,7 +124,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 				
 				score += 1
 				
-				run(sound)
+				 run(sound)
 				
 				
 				if score > high {
@@ -151,7 +151,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 				
 				gameOverLabel.fontName = "SuperMarioGalaxy"
 				
-				gameOverLabel.fontSize = 30
+				gameOverLabel.fontSize = 25
 				
 				gameOverLabel.text = "Game Over! Tap to play again."
 				
@@ -254,7 +254,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		
 		gameStartLabel.fontName = "SuperMarioGalaxy"
 		
-		gameStartLabel.fontSize = 30
+		gameStartLabel.fontSize = 25
 		
 		gameStartLabel.text = "Tap to Start Game Play"
 		
@@ -264,7 +264,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		
 		scoreLabel.fontName = "SuperMarioGalaxy"
 		
-		scoreLabel.fontSize = 30
+		scoreLabel.fontSize = 25
 		
 		scoreLabel.text = "Current Score: " + String (format: "%3d",score) + "  High Score: " + String (format: "%3d",high)
 		

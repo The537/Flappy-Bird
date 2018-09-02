@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4214AE8920FA92CD008639E9 /* SuperMario256.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4214AE8820FA92CD008639E9 /* SuperMario256.ttf */; };
-		4214AE8B20FA936F008639E9 /* Flappy Bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4214AE8A20FA936F008639E9 /* Flappy Bird.jpg */; };
 		426B01F120EFE08300EBB15A /* sfx_point.wav in Resources */ = {isa = PBXBuildFile; fileRef = 426B01EC20EFE08300EBB15A /* sfx_point.wav */; };
 		426B01F220EFE08300EBB15A /* sfx_die.wav in Resources */ = {isa = PBXBuildFile; fileRef = 426B01ED20EFE08300EBB15A /* sfx_die.wav */; };
 		426B01F920F0062200EBB15A /* Flappy Bird Theme Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 426B01F820F0062200EBB15A /* Flappy Bird Theme Song.mp3 */; };
@@ -29,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		4214AE8820FA92CD008639E9 /* SuperMario256.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuperMario256.ttf; sourceTree = "<group>"; };
-		4214AE8A20FA936F008639E9 /* Flappy Bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Flappy Bird.jpg"; sourceTree = "<group>"; };
 		426B01EC20EFE08300EBB15A /* sfx_point.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sfx_point.wav; path = Assets.xcassets/sfx_point.wav; sourceTree = "<group>"; };
 		426B01ED20EFE08300EBB15A /* sfx_die.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sfx_die.wav; path = Assets.xcassets/sfx_die.wav; sourceTree = "<group>"; };
 		426B01F820F0062200EBB15A /* Flappy Bird Theme Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Flappy Bird Theme Song.mp3"; path = "Assets.xcassets/Flappy Bird Theme Song.mp3"; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				426B01EC20EFE08300EBB15A /* sfx_point.wav */,
 				C81B4E781D2BF36D0011C64A /* LaunchScreen.storyboard */,
 				C81B4E7B1D2BF36D0011C64A /* Info.plist */,
-				4214AE8A20FA936F008639E9 /* Flappy Bird.jpg */,
 				4214AE8820FA92CD008639E9 /* SuperMario256.ttf */,
 			);
 			path = "Flappy Bird";
@@ -171,7 +168,6 @@
 				C81B4E771D2BF36D0011C64A /* Assets.xcassets in Resources */,
 				C81B4E8A1D2C11C40011C64A /* pipe2.png in Resources */,
 				426B01F120EFE08300EBB15A /* sfx_point.wav in Resources */,
-				4214AE8B20FA936F008639E9 /* Flappy Bird.jpg in Resources */,
 				C81B4E881D2C11C40011C64A /* flappy2.png in Resources */,
 				426B01F220EFE08300EBB15A /* sfx_die.wav in Resources */,
 				C81B4E891D2C11C40011C64A /* pipe1.png in Resources */,
