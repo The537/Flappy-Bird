@@ -1,7 +1,3 @@
-//
-//  AppDelegate.swift
-//  Flappy Bird
-
 
 import UIKit
 import GameplayKit
