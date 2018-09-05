@@ -8,17 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4214AE8920FA92CD008639E9 /* SuperMario256.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4214AE8820FA92CD008639E9 /* SuperMario256.ttf */; };
-		422BFEFF213DBB5C00542C2B /* seaweed1.png in Resources */ = {isa = PBXBuildFile; fileRef = 422BFEFD213DBB5C00542C2B /* seaweed1.png */; };
-		422BFF00213DBB5C00542C2B /* seaweed2.png in Resources */ = {isa = PBXBuildFile; fileRef = 422BFEFE213DBB5C00542C2B /* seaweed2.png */; };
-		4230C5A2213DD985007AA2D9 /* fishy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4230C5A0213DD985007AA2D9 /* fishy2.png */; };
-		4230C5A3213DD985007AA2D9 /* fishy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4230C5A1213DD985007AA2D9 /* fishy1.png */; };
-		4230C5A7213DE0CA007AA2D9 /* Water.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4230C5A6213DE0CA007AA2D9 /* Water.wav */; };
 		426B01F120EFE08300EBB15A /* sfx_point.wav in Resources */ = {isa = PBXBuildFile; fileRef = 426B01EC20EFE08300EBB15A /* sfx_point.wav */; };
 		426B01F220EFE08300EBB15A /* sfx_die.wav in Resources */ = {isa = PBXBuildFile; fileRef = 426B01ED20EFE08300EBB15A /* sfx_die.wav */; };
 		426B01F920F0062200EBB15A /* Flappy Bird Theme Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 426B01F820F0062200EBB15A /* Flappy Bird Theme Song.mp3 */; };
-		42FE7EF6213DAF0A00F50C37 /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42FE7EF5213DAF0A00F50C37 /* bg1.jpg */; };
-		42FE7EF8213DB42000F50C37 /* bg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42FE7EF7213DB41F00F50C37 /* bg2.jpg */; };
-		42FE7EFA213DB4BC00F50C37 /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FE7EF9213DB4BC00F50C37 /* bg3.png */; };
 		C81B4E6A1D2BF36D0011C64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81B4E691D2BF36D0011C64A /* AppDelegate.swift */; };
 		C81B4E6C1D2BF36D0011C64A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C81B4E6B1D2BF36D0011C64A /* GameScene.sks */; };
 		C81B4E6E1D2BF36D0011C64A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C81B4E6D1D2BF36D0011C64A /* Actions.sks */; };
@@ -36,17 +28,9 @@
 
 /* Begin PBXFileReference section */
 		4214AE8820FA92CD008639E9 /* SuperMario256.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuperMario256.ttf; sourceTree = "<group>"; };
-		422BFEFD213DBB5C00542C2B /* seaweed1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seaweed1.png; sourceTree = "<group>"; };
-		422BFEFE213DBB5C00542C2B /* seaweed2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seaweed2.png; sourceTree = "<group>"; };
-		4230C5A0213DD985007AA2D9 /* fishy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fishy2.png; path = "../../../../Dropbox/Drop Box Image Holder/fishy2.png"; sourceTree = "<group>"; };
-		4230C5A1213DD985007AA2D9 /* fishy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fishy1.png; path = "../../../../Dropbox/Drop Box Image Holder/fishy1.png"; sourceTree = "<group>"; };
-		4230C5A6213DE0CA007AA2D9 /* Water.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Water.wav; sourceTree = "<group>"; };
 		426B01EC20EFE08300EBB15A /* sfx_point.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sfx_point.wav; path = Assets.xcassets/sfx_point.wav; sourceTree = "<group>"; };
 		426B01ED20EFE08300EBB15A /* sfx_die.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sfx_die.wav; path = Assets.xcassets/sfx_die.wav; sourceTree = "<group>"; };
 		426B01F820F0062200EBB15A /* Flappy Bird Theme Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Flappy Bird Theme Song.mp3"; path = "Assets.xcassets/Flappy Bird Theme Song.mp3"; sourceTree = "<group>"; };
-		42FE7EF5213DAF0A00F50C37 /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg1.jpg; path = "../../../../Dropbox/Drop Box Image Holder/bg1.jpg"; sourceTree = "<group>"; };
-		42FE7EF7213DB41F00F50C37 /* bg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg2.jpg; path = "../../../../Dropbox/Drop Box Image Holder/bg2.jpg"; sourceTree = "<group>"; };
-		42FE7EF9213DB4BC00F50C37 /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg3.png; path = "../../../../Dropbox/Drop Box Image Holder/bg3.png"; sourceTree = "<group>"; };
 		C81B4E661D2BF36D0011C64A /* Flappy Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81B4E691D2BF36D0011C64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C81B4E6B1D2BF36D0011C64A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -100,21 +84,13 @@
 				C81B4E6F1D2BF36D0011C64A /* GameScene.swift */,
 				C81B4E711D2BF36D0011C64A /* GameViewController.swift */,
 				C81B4E811D2C11C40011C64A /* bg.png */,
-				42FE7EF5213DAF0A00F50C37 /* bg1.jpg */,
-				42FE7EF7213DB41F00F50C37 /* bg2.jpg */,
-				42FE7EF9213DB4BC00F50C37 /* bg3.png */,
 				C81B4E821D2C11C40011C64A /* flappy1.png */,
 				C81B4E831D2C11C40011C64A /* flappy2.png */,
-				4230C5A1213DD985007AA2D9 /* fishy1.png */,
-				4230C5A0213DD985007AA2D9 /* fishy2.png */,
 				C81B4E841D2C11C40011C64A /* pipe1.png */,
 				C81B4E851D2C11C40011C64A /* pipe2.png */,
-				422BFEFD213DBB5C00542C2B /* seaweed1.png */,
-				422BFEFE213DBB5C00542C2B /* seaweed2.png */,
 				C81B4E731D2BF36D0011C64A /* Main.storyboard */,
 				C81B4E761D2BF36D0011C64A /* Assets.xcassets */,
 				426B01F820F0062200EBB15A /* Flappy Bird Theme Song.mp3 */,
-				4230C5A6213DE0CA007AA2D9 /* Water.wav */,
 				426B01ED20EFE08300EBB15A /* sfx_die.wav */,
 				426B01EC20EFE08300EBB15A /* sfx_point.wav */,
 				C81B4E781D2BF36D0011C64A /* LaunchScreen.storyboard */,
@@ -187,24 +163,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C81B4E751D2BF36D0011C64A /* Main.storyboard in Resources */,
-				4230C5A3213DD985007AA2D9 /* fishy1.png in Resources */,
-				42FE7EF8213DB42000F50C37 /* bg2.jpg in Resources */,
 				C81B4E6C1D2BF36D0011C64A /* GameScene.sks in Resources */,
 				C81B4E861D2C11C40011C64A /* bg.png in Resources */,
 				C81B4E771D2BF36D0011C64A /* Assets.xcassets in Resources */,
 				C81B4E8A1D2C11C40011C64A /* pipe2.png in Resources */,
-				4230C5A2213DD985007AA2D9 /* fishy2.png in Resources */,
-				422BFF00213DBB5C00542C2B /* seaweed2.png in Resources */,
-				42FE7EFA213DB4BC00F50C37 /* bg3.png in Resources */,
 				426B01F120EFE08300EBB15A /* sfx_point.wav in Resources */,
-				422BFEFF213DBB5C00542C2B /* seaweed1.png in Resources */,
 				C81B4E881D2C11C40011C64A /* flappy2.png in Resources */,
 				426B01F220EFE08300EBB15A /* sfx_die.wav in Resources */,
 				C81B4E891D2C11C40011C64A /* pipe1.png in Resources */,
-				42FE7EF6213DAF0A00F50C37 /* bg1.jpg in Resources */,
 				C81B4E871D2C11C40011C64A /* flappy1.png in Resources */,
 				C81B4E7A1D2BF36D0011C64A /* LaunchScreen.storyboard in Resources */,
-				4230C5A7213DE0CA007AA2D9 /* Water.wav in Resources */,
 				C81B4E6E1D2BF36D0011C64A /* Actions.sks in Resources */,
 				426B01F920F0062200EBB15A /* Flappy Bird Theme Song.mp3 in Resources */,
 				4214AE8920FA92CD008639E9 /* SuperMario256.ttf in Resources */,

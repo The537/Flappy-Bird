@@ -10,7 +10,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 	
 	var scoreLabel = SKLabelNode()
 	
-	var score = 0
+	var score: Int64 = 0
 	
 	var gameOverLabel = SKLabelNode()
 	
@@ -60,7 +60,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		
 		let pipeOffset = CGFloat(movementAmount) - self.frame.height / 4
 		
-		let pipeTexture = SKTexture(imageNamed: "seaweed2.png")
+		let pipeTexture = SKTexture(imageNamed: "pipe1.png")
 		
 		let pipe1 = SKSpriteNode(texture: pipeTexture)
 		
@@ -79,7 +79,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		
 		self.addChild(pipe1)
 		
-		let pipe2Texture = SKTexture(imageNamed: "seaweed1.png")
+		let pipe2Texture = SKTexture(imageNamed: "pipe2.png")
 		
 		let pipe2 = SKSpriteNode(texture: pipe2Texture)
 		
@@ -177,7 +177,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 	
 	func setupGame() {
 		
-		let  backGroundMusic = SKAudioNode(fileNamed: "Water.wav")
+		let  backGroundMusic = SKAudioNode(fileNamed: "Flappy Bird Theme Song.mp3")
 
 		self.addChild(backGroundMusic)
 		
@@ -185,7 +185,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		
 		timer = Timer.scheduledTimer(timeInterval: 3 , target: self, selector: #selector(self.checkTimer), userInfo: nil, repeats: true)
 		
-		let bgTexture = SKTexture(imageNamed: "bg3.png")
+		let bgTexture = SKTexture(imageNamed: "bg.png")
 		
 		
 		let moveBGAnimation = SKAction.move(by: CGVector(dx: -bgTexture.size().width, dy: 0), duration: 5.5)
@@ -202,7 +202,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 			
 			bg.size.height = self.frame.height
 			
-			bg.size.width = self.frame.width * 6.3
+			bg.size.width = self.frame.width * 2.2
 			
 			bg.run(moveBGForever)
 			
@@ -217,8 +217,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 		}
 		
 		
-		let birdTexture = SKTexture(imageNamed: "fishy1.png")
-		let birdTexture2 = SKTexture(imageNamed: "fishy2.png")
+		let birdTexture = SKTexture(imageNamed: "flappy1.png")
+		let birdTexture2 = SKTexture(imageNamed: "flappy2.png")
 		
 		let animation = SKAction.animate(with: [birdTexture, birdTexture2], timePerFrame: 0.1)
 		let makeBirdFlap = SKAction.repeatForever(animation)

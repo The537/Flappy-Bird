@@ -7,7 +7,7 @@ import SpriteKit
 import GameplayKit
 
 let userDefaults = Foundation.UserDefaults.standard
-var high = UserDefaults.standard.integer(forKey: "Record")
+var high: Int64 = Int64(UserDefaults.standard.integer(forKey: "Record"))
 
 class GameViewController: UIViewController {
   
